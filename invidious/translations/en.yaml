@@ -1,0 +1,10 @@
+configuration:
+  db_user:
+    name: Database User
+    description: Username for internal PostgreSQL
+  db_pass:
+    name: Database Password
+    description: Password for internal PostgreSQL
+  db_name:
+    name: Database Name
+    description: Database name to use

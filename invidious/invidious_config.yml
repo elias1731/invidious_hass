@@ -1,0 +1,12 @@
+db:
+  user: invidious
+  password: invidious
+  dbname: invidious
+  host: localhost
+  port: 5432
+check_tables: true
+https_only: false
+domain: localhost
+port: 3000
+hmac_key: "replace-this-with-a-long-random-string"
+registration_enabled: false

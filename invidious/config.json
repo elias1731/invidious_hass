@@ -1,0 +1,25 @@
+{
+  "name": "⏯️ Invidious",
+  "version": "1.0.0",
+  "slug": "invidious",
+  "description": "Alternative YouTube frontend running locally with built-in PostgreSQL",
+  "arch": ["amd64", "armv7", "aarch64"],
+  "startup": "services",
+  "boot": "auto",
+  "webui": "http://[HOST]:[PORT:3000]",
+  "ports": {
+    "3000/tcp": 3000
+  },
+  "panel_icon": "mdi:youtube",
+  "ingress": false,
+  "options": {
+    "db_user": "invidious",
+    "db_pass": "invidious",
+    "db_name": "invidious"
+  },
+  "schema": {
+    "db_user": "str",
+    "db_pass": "str",
+    "db_name": "str"
+  }
+}
